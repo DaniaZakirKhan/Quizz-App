@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Quizz App</title>  
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+<div id="quizz">
+  <h1>Quizz</h1></div>
+
+  <div class="container mt-3">
+    <!-- Start Button -->
+    <button id="start-button" class="btn btn-primary" onclick="startQuiz()">Start Quiz</button>
+  </div>
+  
+  <!-- Timer display (will appear after the quiz starts) -->
+  <div id="timer" class="text-center" style="display:none;">
+    <h3>Time Left: <span id="time-left">00:00</span></h3>
+  </div>
+  
+  <!-- Quiz Container (Hidden initially) -->
+  <div id="container" class="container mt-3" style="display:none;">
+
+   
+  </div>
+  
+  <!-- Result Container (Hidden initially) -->
+  <div class="mt-3 container card" id="result-container" style="display: none;">
+    <div id="result" class="card-header text-center">
+      <b>Result</b>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li id="score" class="list-group-item"></li>
+    </ul>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

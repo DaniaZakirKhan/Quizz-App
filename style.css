@@ -1,0 +1,46 @@
+body{
+  background-image: url(images/44661.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ #submit{
+  float: right;
+ }
+ #result-container{
+  width: 400px;
+ }
+ #score{
+color: green;
+ }
+#start-button{
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 350px;
+  padding: 25px 25px 25px 25px;
+  font-size: 25px;
+  background-color: blueviolet;
+}
+#result-container{
+  background-color:aquamarine;
+  color: blueviolet;
+}
+#result{
+  background-color:aquamarine;
+  color: blue;
+}
+h1{
+  margin-left: 250px;
+  margin-top: 50px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: brown;
+}
+
+#timer{
+  margin-left: 250px;
+  margin-top: 50px;
+}
+#quizz{
+  margin-top: 50px;
+  color: brown;
+}
